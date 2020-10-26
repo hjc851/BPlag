@@ -1,0 +1,16 @@
+rootProject.name = 'BPlag'
+
+sourceControl {
+    gitRepository("https://github.com/hjc851/JCInterpret.git") {
+        producesModule("me.haydencheers:algorithms")
+        producesModule("me.haydencheers:comparison")
+        producesModule("me.haydencheers:core")
+        producesModule("me.haydencheers:documents")
+        producesModule("me.haydencheers:entry")
+        producesModule("me.haydencheers:graph")
+        producesModule("me.haydencheers:graph-serialization")
+        producesModule("me.haydencheers:parser")
+        producesModule("me.haydencheers:signatures")
+        producesModule("me.haydencheers:testconsole")
+    }
+}
